@@ -1,0 +1,48 @@
+@import './../../assets//style//variables.scss';
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+    .aboutFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center ;
+        margin-right: 200px;
+        a{
+            color:$basic-color
+        }
+        .headerForAbout{
+            text-align: start;
+        }
+    }
+    .quickLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center ;
+        margin-right: 200px;
+        .linksForQuick{
+            display: flex;
+            flex-direction: column;
+        }
+        a{
+            color:black
+        }
+    }
+
+    .followFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center ;
+        margin-right: 200px;
+        a{
+            color:black
+        }
+    }
+}
